@@ -1,0 +1,30 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio showcases my completed projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarasg89/replicating-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react"
+  ],
+  "author": "Sara Seoane Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarasg89/replicating-portfolio/issues"
+  },
+  "homepage": "https://github.com/sarasg89/replicating-portfolio#readme",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emailjs/nodejs": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
