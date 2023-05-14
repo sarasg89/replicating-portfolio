@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
-import './style.css';
-import { validateEmail } from '../../utils/helpers';
-import { contactForm } from '../../utils/API'
+import '../styles/form.css';
+import { validateEmail } from '../utils/helpers';
+import { contactForm } from '../utils/API'
 
 
 function Form() {
@@ -49,6 +49,7 @@ function Form() {
             return;
         }
 
+        // Call the contactForm function passing the name, email, and message fields as parameters
         contactForm(name, email, message); 
 
         // Alert the user their message has been sent
@@ -62,9 +63,6 @@ function Form() {
 
     return (
         <div>
-            <p>
-                Hello {name}
-            </p>
             <form ref={form} className="form">
                 <input
                     value={name}
