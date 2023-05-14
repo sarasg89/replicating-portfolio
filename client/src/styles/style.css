@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&display=swap');
+
+:root {
+    --background:#FFFBF8;
+    --shadows: #284b63;
+    --grey: #d9d9d9;
+    --text: #353535;
+    --green: #3c6e71;
+}
+
+#root {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.logo-img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.nav-link {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#about-me {
+    font-family: 'Quicksand', sans-serif;
+    margin: 50px 500px 50px 500px;
+}
+
+#resume-img {
+    display: block;
+    margin: 20px auto 100px;
+    width: 50%;
+    box-shadow: 20px 20px var(--shadows);
+}
+
+span {
+    color: var(--green);
+}
+
+footer {
+    background-color: var(--grey);
+}

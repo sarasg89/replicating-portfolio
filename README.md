@@ -25,6 +25,8 @@
 
 In order to be able to send emails from the contact form, I used [EmailJS](https://www.emailjs.com/) and followed this [tutorial](https://www.youtube.com/watch?v=bMq2riFCF90&t=8s&ab_channel=ChaooCharles). I then run into some problems with dotenv not working with Webpack v5 so I had to create a server to hide my API keys. I followed this [article](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/) from freeCodeCamp.Lastly, I was having issues with the API not reading the .env file so I changed the execution path as recommended in [this](https://stackoverflow.com/questions/42335016/dotenv-file-is-not-loading-environment-variables) Stack Overflow post.
 
+[This](https://stackoverflow.com/questions/41938718/how-to-download-files-using-axios) post on Stack Overflow helped me figure out how to download files using Axios.
+
 ## License
 
 MIT License

@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/style.css';
 
 function Header() {
     return (
-        <header className="header">
-            <h1>Sara's portfolio</h1>
+        <header>
+            <img className="logo-img" src={require('../images/pagelogo.gif')} alt="logo"/>
         </header>
     )
 }
