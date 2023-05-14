@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&display=swap');
+
+:root {
+    --background:#FFFBF8;
+    --shadows: #284b63;
+    --grey: #d9d9d9;
+    --text: #353535;
+    --green: #3c6e71;
+}
+
+a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+#project-container {
+    margin: auto 50px 50px;
+}
