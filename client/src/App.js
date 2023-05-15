@@ -29,23 +29,23 @@ export function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <header>
+    <>
+      <>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      </header>
+      </>
       <main>
         {renderPage()}
       </main>
-    </div>
+    </>
   );
 }
 
 function App() {
   return (
-    <div>
+    <>
       <Container />
       <Footer />
-    </div>
+    </>
   )
 }
 

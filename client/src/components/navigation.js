@@ -4,9 +4,9 @@ import Header from './header';
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
-        <nav className="navbar bg-body-tertiary">
+        <nav className="navbar bg-body-tertiary" role="navigation">
             <Header />
-            <ul className="nav sticky-top nav-underline justify-content-end p-3 fs-4">
+            <ul className="nav justify-content-end p-3 fs-4">
                 <li className="nav-item">
                     <a
                         href="#home"

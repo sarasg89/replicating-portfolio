@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&display=swap');
 
 :root {
-    --background:#FFFBF8;
+    --background: #FFFBF8;
     --shadows: #284b63;
     --grey: #d9d9d9;
     --text: #353535;
     --green: #3c6e71;
+    --text-font: 'Quicksand', sans-serif;
+    --nav-font: 'Roboto Mono', monospace;
 }
 
-#root {
-    background-color: var(--background);
-    color: var(--text);
+#root, #modal{
+    font-family: var(--text-font);
 }
 
+/* Header and navbar */
 .logo-img {
     height: 300px;
     width: 300px;
@@ -20,25 +22,28 @@
 }
 
 .nav-link {
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--nav-font);
 }
 
-#about-me {
-    font-family: 'Quicksand', sans-serif;
-    margin: 50px 500px 50px 500px;
-}
-
-#resume-img {
-    display: block;
-    margin: 20px auto 100px;
-    width: 50%;
-    box-shadow: 20px 20px var(--shadows);
-}
-
-span {
+/* Projects */
+h5 a {
+    text-decoration: none;
     color: var(--green);
 }
 
+#project-container {
+    margin: auto 50px 50px;
+}
+
+/* Resume */
+
+
+/* Contact me form*/
+textarea {
+    height: 100px;
+}
+
+/* Footer */
 footer {
     background-color: var(--grey);
-}
+}   
