@@ -24,6 +24,11 @@
 .nav-link {
     font-family: var(--nav-font);
 }
+/* Home and about me */ 
+#home-photo {
+    max-width: 300px;
+    max-height: auto;
+}
 
 /* Projects */
 h5 a {

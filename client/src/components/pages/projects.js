@@ -81,7 +81,7 @@ function Projects() {
                     <img src={require("../../images/project-rain-tracker.png")} className="card-img-top h-100" alt="weather forecast website" />
                     <div className="card-body">
                         <h5 className="card-title py-3">Rain tracker <a href="https://github.com/sarasg89/rain-tracker" role="button"
-                            target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithub} /></a><a href="https://sarasg89.github.io/rain-tracker/" role="button"
+                            target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithub} /></a> <a href="https://sarasg89.github.io/rain-tracker/" role="button"
                             target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faCirclePlay} /></a></h5>
                         <p className="card-text">
                             This application retrieves weather data using the OpenWeather API. The user is able to enter the name of a city into a form and obtain the 5-day forecast for that city. The user's search history is saved and displayed below the form. The user can click on a city in the search history and view the current weather and 5-day forecast for that city again.
