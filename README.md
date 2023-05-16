@@ -23,7 +23,7 @@ This is my portfolio! Check out my projects by accessing the deployed link 👇
 
 ### Contact me page
 
-!![screenshot of the contact form](./client/src/images/screenshot-contact.png)
+![screenshot of the contact form](./client/src/images/screenshot-contact.png)
 
 ## Credits
 
