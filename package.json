@@ -4,7 +4,7 @@
   "description": "my portfolio showcases my completed projects",
   "main": "index.js",
   "scripts": {
-    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start:dev": "concurrently \"cd client && npm run build && npm run start\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server server.js --ignore client",
     "build": "cd client && npm run build",
@@ -25,10 +25,13 @@
     "url": "https://github.com/sarasg89/replicating-portfolio/issues"
   },
   "homepage": "https://github.com/sarasg89/replicating-portfolio#readme",
-  "dependencies": {
+  "devDependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emailjs/nodejs": "^2.2.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",    
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
   }
 }

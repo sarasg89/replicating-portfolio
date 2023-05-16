@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://github.com/sarasg89/replicating-portfolio",
   "proxy": "http://localhost:3001",
-  "dependencies": {
+  "devDependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
