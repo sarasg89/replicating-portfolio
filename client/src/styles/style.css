@@ -10,21 +10,27 @@
     --nav-font: 'Roboto Mono', monospace;
 }
 
-#root, #modal{
+#root,
+#modal {
     font-family: var(--text-font);
 }
 
 /* Header and navbar */
 .logo-img {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
 }
 
 .nav-link {
     font-family: var(--nav-font);
 }
-/* Home and about me */ 
+
+#big-navbar {
+    display: none;
+}
+
+/* Home and about me */
 #home-photo {
     max-width: 300px;
     max-height: auto;
@@ -51,4 +57,28 @@ textarea {
 /* Footer */
 footer {
     background-color: var(--grey);
-}   
+}
+
+@media only screen and (min-width: 576px) {
+    .logo-img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .logo-img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    #small-navbar {
+        display: none;
+    }
+
+    #big-navbar {
+        display: inline;
+    }
+}

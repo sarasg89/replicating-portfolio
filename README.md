@@ -6,20 +6,22 @@
 
 ## Table of contents
 
-- [Installation](#installation)
-- [Usage](#usage)
 - [Deployed application](#deployed-application)
 - [Screenshots](#screenshots)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-
-## Usage
-
 ## Deployed application
 
 ## Screenshots
+
+### Home page
+
+![screenshot of the home page](./client/src/images/screenshot-home.png)
+
+### Contact me page
+
+!![screenshot of the contact form](./client/src/images/screenshot-contact.png)
 
 ## Credits
 
@@ -28,6 +30,8 @@ In order to be able to send emails from the contact form, I used [EmailJS](https
 [This](https://stackoverflow.com/questions/41938718/how-to-download-files-using-axios) post on Stack Overflow helped me figure out how to download files using Axios.
 
 In order to get the modal to work with React, I had to read some articles that explained how to write a function to show/hide the modal. I found [this](https://react-bootstrap.github.io/components/modal/) one especially helpful.
+
+I used the same [site](https://react-bootstrap.github.io/components/offcanvas/) to work out the off-canvas navbar.
 
 ## License
 

@@ -100,9 +100,9 @@ function Contact() {
         <section className="container">
             <h1 className="mx-auto text-center py-2">Get in touch</h1>
             <p className="mx-auto text-center py-2">I would love to hear from you, even if it's just to say "hi!". Drop me a line and I'll get back to you ASAP.</p>
-            <h4 className="mx-auto text-center py-2">Write me a message</h4>
+            <h4 className="mx-auto text-center mb-4 py-2">Write me a message</h4>
             <form ref={form} className="form mx-auto mb-5">
-                <div className="mb-3">
+                <div className="mb-4">
                     <label
                         for="name"
                         className="form-label">
@@ -118,7 +118,7 @@ function Contact() {
                         onBlur={validateForm}
                     />
                 </div>
-                <div className="mb-3">
+                <div className="mb-4">
                     <label
                         for="email"
                         className="form-label">
@@ -134,7 +134,7 @@ function Contact() {
                         onBlur={validateForm}
                     />
                 </div>
-                <div className="mb-3">
+                <div className="mb-4">
                     <label
                         for="message"
                         className="form-label">

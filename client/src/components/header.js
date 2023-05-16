@@ -4,7 +4,7 @@ import '../styles/style.css';
 function Header() {
     return (
         <header>
-            <img className="logo-img" src={require('../images/pagelogo.gif')} alt="logo"/>
+            <img className="logo-img navbar-brand" src={require('../images/pagelogo.gif')} alt="logo"/>
         </header>
     )
 }

@@ -24,10 +24,10 @@ export default function Home() {
                 </p>
                 <img id="home-photo" className="img-fluid col-12 col-md-4 p-5" src={require("../../images/home-photo.jpeg")} alt="Sara with her dog Reggie" />
             </div>
-            <div className="d-flex justify-content-center my-5">
+            <div className="d-flex justify-content-center mb-5">
                 <a
                     role="button"
-                    className="btn btn-secondary"
+                    className="btn btn-secondary mb-5"
                     href="/#projects"
                 >
                     Check out my projects!
