@@ -4,6 +4,8 @@
 
 ## Description
 
+This is my portfolio! Check out my projects by accessing the deployed link 👇
+
 ## Table of contents
 
 - [Deployed application](#deployed-application)

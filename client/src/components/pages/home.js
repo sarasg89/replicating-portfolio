@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../styles/style.css';
-import Projects from './projects';
 
 export default function Home() {
+
     return (
         <section id="about-me" className="container my-3">
             <h6 className="">Hi, my name is</h6>
@@ -24,15 +24,16 @@ export default function Home() {
                 </p>
                 <img id="home-photo" className="img-fluid col-12 col-md-4 p-5" src={require("../../images/home-photo.jpeg")} alt="Sara with her dog Reggie" />
             </div>
-            <div className="d-flex justify-content-center mb-5">
+            {/* <div className="d-flex justify-content-center mb-5">
                 <a
                     role="button"
                     className="btn btn-secondary mb-5"
-                    href="/#projects"
+                    href="#projects"
+                    onClick=""
                 >
                     Check out my projects!
                 </a>
-            </div>
+            </div> */}
         </section>
     )
 }
