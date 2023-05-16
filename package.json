@@ -4,7 +4,7 @@
   "description": "my portfolio showcases my completed projects",
   "main": "index.js",
   "scripts": {
-    "start:dev": "concurrently \"cd client && npm run build && npm run start\" \"cd server && npm run server\" ",
+    "start:dev": "cd client && npm run build && cd .. && concurrently \"cd client && npm run start\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server server.js --ignore client",
     "build": "cd client && npm run build",
