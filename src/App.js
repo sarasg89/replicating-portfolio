@@ -36,7 +36,7 @@ const projects = [
       github: "https://github.com/sarasg89/night-and-blog",
       deployed: "https://sheltered-basin-73673.herokuapp.com/",
       description: "This is a CMS-Style blog site similar to a Wordpress site, where users can publish their blog posts and comment on other users' posts as well. This site was built using the Model-View-Controller (MVC) paradigm in its architectural structure, using Handlebars.js as the template language, Sequelize as the ORM, and the express-session npm package for authentication.",
-      tech: ""
+      tech: "JavaScript, Node.JS, Sequelize, Handlebars, Express"
   },
   {
       id: "4",
