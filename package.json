@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sarasg89.github.io/replicating-portfolio/",
-  "proxy": "http://ssg-portfolio-server.herokuapp.com/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
