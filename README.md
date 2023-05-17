@@ -15,6 +15,8 @@ This is my portfolio! Check out my projects by accessing the deployed link 👇
 
 ## Deployed application
 
+[https://sarasg89.github.io/replicating-portfolio/](https://sarasg89.github.io/replicating-portfolio/)
+
 ## Screenshots
 
 ### Home page
