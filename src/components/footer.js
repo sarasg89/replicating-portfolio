@@ -13,7 +13,7 @@ function Footer() {
                     <FontAwesomeIcon icon={faLinkedinIn} size="xl"/></a>
                 <a className="btn btn-link btn-floating btn-lg text-dark" href="https://github.com/sarasg89" role="button"
                     target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl"/></a>
-                <a className="btn btn-link btn-floating btn-lg text-dark" role="button" href="mailto:#" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faEnvelope} size="xl"/></a>
+                <a className="btn btn-link btn-floating btn-lg text-dark" role="button" href="mailto:saraseoanegarcia@gmail.com" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faEnvelope} size="xl"/></a>
                 <a className="btn btn-link btn-floating btn-lg text-dark" role="button" href="https://discordapp.com/users/sarasg89#0902" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faDiscord} size="xl"/></a>
             </div>
             <div className="text-center text-dark">
