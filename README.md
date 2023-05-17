@@ -19,11 +19,11 @@ This is my portfolio! Check out my projects by accessing the deployed link 👇
 
 ### Home page
 
-![screenshot of the home page](./client/src/images/screenshot-home.png)
+![screenshot of the home page](src/images/screenshot-home.png)
 
 ### Contact me page
 
-![screenshot of the contact form](./client/src/images/screenshot-contact.png)
+![screenshot of the contact form](src/images/screenshot-contact.png)
 
 ## Credits
 
