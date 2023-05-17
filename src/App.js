@@ -52,7 +52,7 @@ const projects = [
       id: "5",
       img: require("./images/project-social-API.png"),
       alt: "API for a social network app",
-      name: "PI for a social network web application ",
+      name: "API for a social network web application ",
       github: "https://github.com/sarasg89/my-social-API",
       deployed: " ",
       description: "This API would enable a social network app's users to share their thoughts, react to friends' thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM.",
