@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sarasg89/replicating-portfolio/static/css/main.96cffd43.css",
-    "main.js": "/sarasg89/replicating-portfolio/static/js/main.161cba81.js",
-    "static/media/project-foodie.png": "/sarasg89/replicating-portfolio/static/media/project-foodie.66744a4578c33eaf0772.png",
-    "static/media/project-rain-tracker.png": "/sarasg89/replicating-portfolio/static/media/project-rain-tracker.ddc3f5d84ef33121a421.png",
-    "static/media/project-vet-set-go.png": "/sarasg89/replicating-portfolio/static/media/project-vet-set-go.6d23ae6e2b9429c4016b.png",
-    "static/media/project-blog.png": "/sarasg89/replicating-portfolio/static/media/project-blog.a35d502e2be9764a32b6.png",
-    "static/media/home-photo.jpeg": "/sarasg89/replicating-portfolio/static/media/home-photo.b8db698453d99adda52f.jpeg",
-    "static/media/project-backend-commerce.png": "/sarasg89/replicating-portfolio/static/media/project-backend-commerce.1d1258d7f38ce666ab77.png",
-    "static/media/project-social-API.png": "/sarasg89/replicating-portfolio/static/media/project-social-API.510ae242f2b51e2bb0bb.png",
-    "static/media/resume1.png": "/sarasg89/replicating-portfolio/static/media/resume1.e850425d18bd8fe36dbe.png",
-    "static/media/pagelogo.gif": "/sarasg89/replicating-portfolio/static/media/pagelogo.0f70d14201909c38e4d1.gif",
-    "static/media/resume2.png": "/sarasg89/replicating-portfolio/static/media/resume2.966bdcf05ef267dd6ea4.png",
-    "index.html": "/sarasg89/replicating-portfolio/index.html",
-    "main.96cffd43.css.map": "/sarasg89/replicating-portfolio/static/css/main.96cffd43.css.map",
-    "main.161cba81.js.map": "/sarasg89/replicating-portfolio/static/js/main.161cba81.js.map"
+    "main.css": "/replicating-portfolio/static/css/main.96cffd43.css",
+    "main.js": "/replicating-portfolio/static/js/main.abfe2fc8.js",
+    "static/media/project-foodie.png": "/replicating-portfolio/static/media/project-foodie.66744a4578c33eaf0772.png",
+    "static/media/project-rain-tracker.png": "/replicating-portfolio/static/media/project-rain-tracker.ddc3f5d84ef33121a421.png",
+    "static/media/project-vet-set-go.png": "/replicating-portfolio/static/media/project-vet-set-go.6d23ae6e2b9429c4016b.png",
+    "static/media/project-blog.png": "/replicating-portfolio/static/media/project-blog.a35d502e2be9764a32b6.png",
+    "static/media/home-photo.jpeg": "/replicating-portfolio/static/media/home-photo.b8db698453d99adda52f.jpeg",
+    "static/media/project-backend-commerce.png": "/replicating-portfolio/static/media/project-backend-commerce.1d1258d7f38ce666ab77.png",
+    "static/media/project-social-API.png": "/replicating-portfolio/static/media/project-social-API.510ae242f2b51e2bb0bb.png",
+    "static/media/resume1.png": "/replicating-portfolio/static/media/resume1.e850425d18bd8fe36dbe.png",
+    "static/media/pagelogo.gif": "/replicating-portfolio/static/media/pagelogo.0f70d14201909c38e4d1.gif",
+    "static/media/resume2.png": "/replicating-portfolio/static/media/resume2.966bdcf05ef267dd6ea4.png",
+    "index.html": "/replicating-portfolio/index.html",
+    "main.96cffd43.css.map": "/replicating-portfolio/static/css/main.96cffd43.css.map",
+    "main.abfe2fc8.js.map": "/replicating-portfolio/static/js/main.abfe2fc8.js.map"
   },
   "entrypoints": [
     "static/css/main.96cffd43.css",
-    "static/js/main.161cba81.js"
+    "static/js/main.abfe2fc8.js"
   ]
 }
