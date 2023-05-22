@@ -15,7 +15,7 @@ This is my portfolio! Check out my projects by accessing the deployed link 👇
 
 ## Deployed application
 
-[http://www.saraseoanegarcia.com/](http://www.saraseoanegarcia.com/)
+[https://www.saraseoanegarcia.com/](https://www.saraseoanegarcia.com/)
 
 ## Screenshots
 
