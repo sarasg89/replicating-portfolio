@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 const contactForm = async (name, email, message) =>
-  axios.post(`https://ssg-portfolio-server.herokuapp.com/api/contact-form`, { name, email, message });
+  axios.post(`/api/contact-form`, { name, email, message });
 
 const downloadFile = async () => {
   axios({
-    url: 'https://ssg-portfolio-server.herokuapp.com/api/resume',
+    url: '/api/resume',
     method: 'GET',
     responseType: 'blob',
   }).then((response) => {
