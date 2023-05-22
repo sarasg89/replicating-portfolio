@@ -50,13 +50,12 @@ const projects = [
   },
   {
       id: "5",
-      img: require("./images/project-social-API.png"),
-      alt: "API for a social network app",
-      name: "API for a social network web application ",
-      github: "https://github.com/sarasg89/my-social-API",
-      deployed: " ",
-      description: "This API would enable a social network app's users to share their thoughts, react to friends' thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM.",
-      tech: "JavaScript, Node.js, Express.js, MongoDB, Mongoose"
+      img: require("./images/project-books.png"),
+      alt: "Book search engine app",
+      name: "Book search engine application ",
+      github: "https://github.com/sarasg89/find-me-a-book",
+      deployed: "https://find-me-a-book.herokuapp.com/",
+      description: "For this project, I took a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API."
   },
   {
       id: "6",
