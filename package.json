@@ -23,13 +23,11 @@
     "url": "https://github.com/sarasg89/replicating-portfolio/issues"
   },
   "homepage": "https://github.com/sarasg89/replicating-portfolio#readme",
-  "devDependencies": {
+  "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emailjs/nodejs": "^2.2.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",    
     "concurrently": "^8.0.1"
-  },
-  "dependencies": {
   }
 }
