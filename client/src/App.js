@@ -10,6 +10,16 @@ import './styles/style.css'
 const projects = [
   {
     id: "1",
+    img: require("./images/project-prints.png"),
+    alt: "wedding stationery site",
+    name: "Happily Ever Prints ",
+    github: "https://github.com/weddingprintproj3/HappilyEverPrints",
+    deployed: "https://radiant-island-05643.herokuapp.com/",
+    description: "For this project we aimed to create a user-friendly platform that would allow couples to design their own wedding stationery. The goal was to provide a suite of tools to create unique, personalised designs that align with any theme. By eliminating the need for professional designers and offering print on-demand services, our platform helps reduce costs and eliminates excess production.",
+    tech: "CSS, JavaScript, React, MongoDB, Mongoose, Express, Node.js, Stripe"
+  },
+  {
+    id: "2",
     img: require("./images/project-foodie.png"),
     alt: "feed the foodie home page",
     name: "Feed the Foodie ",
@@ -19,7 +29,7 @@ const projects = [
     tech: "HTML, CSS, JavaScript, Tailwind, 3rd Party APIs, CORS proxy"
   },
   {
-    id: "2",
+    id: "3",
     img: require("./images/project-vet-set-go.png"),
     alt: "vet office site",
     name: "Vet Set Go ",
@@ -29,7 +39,7 @@ const projects = [
     tech: "HTML, JavaScript, Bulma, Handlebars, Node.js, JawsDB"
   },
   {
-    id: "3",
+    id: "4",
     img: require("./images/project-blog.png"),
     alt: "blog",
     name: "CMS-style blog ",
@@ -39,7 +49,7 @@ const projects = [
     tech: "JavaScript, Node.JS, Sequelize, Handlebars, Express"
   },
   {
-    id: "4",
+    id: "5",
     img: require("./images/project-backend-commerce.png"),
     alt: "E-commerce back-end API",
     name: "E-commerce back-end ",
@@ -49,24 +59,14 @@ const projects = [
     tech: "JavaScript, Node.js, CLI"
   },
   {
-    id: "5",
+    id: "6",
     img: require("./images/project-books.png"),
       alt: "Book search engine app",
       name: "Book search engine application ",
       github: "https://github.com/sarasg89/find-me-a-book",
       deployed: "https://find-me-a-book.herokuapp.com/",
       description: "For this project, I took a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API."
-  },
-  {
-    id: "6",
-    img: require("./images/project-rain-tracker.png"),
-    alt: "weather forecast website",
-    name: "Rain tracker ",
-    github: "https://github.com/sarasg89/rain-tracker",
-    deployed: "https://sarasg89.github.io/rain-tracker/",
-    description: "This application retrieves weather data using the OpenWeather API. The user is able to enter the name of a city into a form and obtain the 5-day forecast for that city. The user's search history is saved and displayed below the form. The user can click on a city in the search history and view the current weather and 5-day forecast for that city again.",
-    tech: "HTML, CSS, JavaScript, 3rd Party APIs, Bootstrap"
-  },
+  }
 ]
 
 export function Container() {
